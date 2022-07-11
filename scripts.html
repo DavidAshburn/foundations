@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Scripts</title>
+    
+  </head>
+
+  <body>
+
+	<h1>Scripting Page</h1>
+	<p>Console Logging several functions</p>
+
+	<script>
+
+		function add7(operand) {
+			return operand + 7;
+		}
+		function multiply(first, second) {
+			return first * second;
+		}
+		function capitalize(stin) {
+			stin = stin.toLowerCase();
+			let first = stin.substr(0,1);
+			let second = stin.substr(1);
+			first = first.toUpperCase();
+			return first + second;
+		}
+		function lastLetter(stin) {
+			return stin[stin.length - 1];
+		}
+
+
+		console.log(add7(1));
+		console.log(multiply(3,2));
+		console.log(capitalize("tHREe"));
+		console.log(lastLetter('firetrucK'));
+
+		let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+
+		for( let i = 1; i <= answer; i++) 
+		{
+			if (i % 3 == 0)
+			{
+				if (i % 5 == 0) console.log('Fizzbuzz');
+				else console.log('Fizz');
+			}
+			else if (i % 5 == 0) console.log('Buzz');
+			else console.log(i);
+		}
+		
+
+	</script>
+
+
+  </body>
+</html>

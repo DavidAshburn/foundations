@@ -1,0 +1,191 @@
+.f-main {
+  justify-content: left;
+  font-family: arial;
+  margin: 0px;
+}
+
+.f-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #1f2937;
+  padding: 10px 0px;
+  font-family: arial;
+}
+
+.f-headlogo {
+  font-size: 24px;
+  color: #f9faf8;
+  flex: 2 10 0;
+  margin-left: 50px;
+  min-width: 20%;
+  max-width: 50%;
+  padding: 20px 50px;
+}
+
+.f-headlinks {
+  display: flex;
+  flex: 1 1 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.f-intro {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10rem;
+  background: #1f2937;
+  font-family: arial;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.f-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: flex-start;
+}
+
+.f-bigtext {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #f9faf8;
+}
+
+.f-sectext {
+  font-size: 18px;;
+  color: #e5e7eb;
+}
+
+.f-sign-up-button {
+  background: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  margin: 2rem;
+  padding-left:  .7rem;
+  padding-top:  .7rem;
+  padding-bottom:  .7rem;
+  padding-right:  .3rem;
+  width: 4rem;
+}
+
+.f-sign-up-button2 {
+  background: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+  margin: 2rem;
+  padding-left:  .7rem;
+  padding-top:  .7rem;
+  padding-bottom:  .7rem;
+  padding-right:  .3rem;
+  width: 4rem;
+  border: 2px solid white;
+}
+.f-mainimage {
+  flex: 0 0 400px;
+}
+
+.f-qcard {
+  display: flex;
+  background: #e5e7eb;
+  color: #1f2937;
+  font-family: arial;
+  font-size: 28px;
+  font-style: italic;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.qflex {
+  display: flex;
+  flex-direction: column;
+  min-width: 40rem;
+  max-width: 60rem;
+}
+
+.f-credit {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 5rem;
+}
+
+.f-callact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.f-callcard {
+  display: flex;
+  flex-direction: column;
+  background: #3882F6;
+  color: #f9faf8;
+  min-width: 40rem;
+  max-width: 60rem;
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.f-calltitle {
+  font-size: 24px;
+}
+
+.f-calltext {
+  font-size: 18px;
+  font-style: italic;
+}
+/*-----------------------------Information-----------------*/
+
+.info-head {
+  display: flex;
+  font-family: 'Anton';
+  font-size: 32px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.info-container {
+  display: flex;
+  width:  100%;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 32px;
+  padding-bottom: 50px;
+}
+
+.info-card {
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.info-text {
+  font-family: 'Anton';
+  font-size: 18px;
+  text-align: center;
+}
+
+.info-pic {
+  width: 200px;
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+}
+
+/*-----------------------------Samara classes-----------------*/
+.nav-link {
+  color: #e5e7eb;
+}
