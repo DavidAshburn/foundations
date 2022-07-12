@@ -39,13 +39,14 @@ function playGame(pSelect) {
 	return results;
 }
 
+//our score and result output variables
 var roundList = [];
 var score = 0;
-
+//handles for their future HTML containers
 const results = document.querySelector('.result-list');
 const scoreOut = document.querySelector('.score');
 
-
+//Playing the game and outputting results to output variables 'roundList' and 'score'
 function onClick(e) {
 	let type;
 	let html = `<li>Nothing Yet</li>`;
@@ -74,8 +75,8 @@ function onClick(e) {
 }
 
 function resetClick(e) {
-	let blank = [];
-	results.innerHTML = blank;
+	roundList = [];
+	results.innerHTML = roundList;
 	score = 0;
 	let scoreHtml = `<div></div>`
 	scoreOut.innerHTML = scoreHtml;
