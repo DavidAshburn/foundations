@@ -2,17 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="jankenstyle.css">
     <title>Jankenpo</title>
     
   </head>
 
   <body>
     
-    <button id=rock>Rock</button>
-    <button id=paper>Paper</button>
-    <button id=scissors>Scissors</button>
-    <script src="jajavascript.js"></script>
+    <div class="button-box">
+      <button class='button' name='Rock'>Rock</button>
+      <button class='button' name='Paper'>Paper</button>
+      <button class='button' name='Scissors'>Scissors</button>
+
+    </div>
+
+    <div class=results>
+      <ul class=result-list></ul>
+    </div>
+    <div class="footer">
+      <div class=score></div>
+      <button class='button reset'>Try Again</button>
+    </div>
+    <script src="janken.js"></script>
     
 
   </body>

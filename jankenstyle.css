@@ -1,0 +1,44 @@
+/*-----------------------------Jankenpo classes-----------------*/
+
+.button-box {
+  display: flex;
+  flex: .5;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 0;
+  gap: 1rem;
+}
+
+.butt-active {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.results {
+  display: flex;
+  background: ghostwhite;
+  font-family: arial;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.score {
+  display: flex;
+  font-family: arial;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  font-family: arial;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  gap:  2rem;
+}
